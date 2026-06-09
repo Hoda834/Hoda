@@ -1,0 +1,44 @@
+/* Hoda Rezvanjoo — site styles (header, footer, layout, form fields) */
+*{box-sizing:border-box;margin:0;padding:0}
+html{ -webkit-font-smoothing:antialiased; }
+body{
+  background:#FFFFFF;color:#1A1D21;
+  font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+
+/* HEADER */
+.hdr{background:#FFFFFF;border-bottom:1px solid #E7E4DE;position:sticky;top:0;z-index:10;}
+.hdr .inner{max-width:1000px;margin:0 auto;padding:18px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px;}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;}
+.brand img{width:30px;height:30px;display:block;}
+.brand b{font-family:"Crimson Pro",Georgia,serif;font-size:20px;font-weight:600;letter-spacing:.01em;color:#1B3A5C;}
+.nav{display:flex;gap:30px;align-items:center;}
+.nav a{color:#42474D;text-decoration:none;font-size:15px;}
+.nav a:hover{color:#E87722;}
+.nav a.active{color:#1B3A5C;font-weight:600;}
+
+/* FOOTER */
+.foot{background:#1B3A5C;color:#AEBDCB;}
+.foot .inner{max-width:1000px;margin:0 auto;padding:36px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;}
+.foot a{color:#C7D2DD;text-decoration:none;font-size:14px;}
+.foot a:hover{color:#E87722;}
+.foot .fname{font-family:"Crimson Pro",Georgia,serif;color:#fff;font-size:18px;}
+.foot .fnav{display:flex;gap:22px;flex-wrap:wrap;}
+
+/* LAYOUT */
+.wrap{max-width:1000px;margin:0 auto;padding:0 40px;}
+
+/* CONTACT form fields */
+.fld{font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:600;color:#42474D;display:block;margin:0 0 6px 0;}
+.inp{width:100%;border:1px solid #D5D1C9;border-radius:4px;padding:12px 14px;font-size:15px;font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Arial,sans-serif;color:#1A1D21;background:#fff;}
+textarea.inp{resize:vertical;min-height:120px;}
+.btn-navy{appearance:none;border:0;cursor:pointer;display:inline-block;background:#1B3A5C;color:#fff;font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Arial,sans-serif;font-size:16px;font-weight:600;padding:13px 28px;border-radius:4px;text-decoration:none;}
+.btn-navy:hover{background:#16314d;}
+
+@media(max-width:760px){
+  .nav{display:none;}
+  .hdr .inner,.wrap,.foot .inner{padding-left:22px;padding-right:22px;}
+  .about-grid{grid-template-columns:1fr !important;}
+  .c-grid{grid-template-columns:1fr !important;}
+  .feat-grid{grid-template-columns:1fr !important;}
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Hoda Rezvanjoo</title>
+<meta name="description" content="Hoda Rezvanjoo works on how organisations make decisions and how data can support clearer thinking.">
+<link rel="icon" href="../assets/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+  <header class="hdr">
+    <div class="inner">
+      <a class="brand" href="../"><img src="../assets/logo.webp" alt="Hoda Rezvanjoo"><b>Hoda Rezvanjoo</b></a>
+      <nav class="nav"><a href="../work/">Work</a><a href="../research/">Research</a><a href="../writing/">Writing</a><a href="../about/" class="active">About</a><a href="../contact/">Contact</a></nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section class="about-grid" style="padding:80px 0 80px 0;display:grid;grid-template-columns:300px 1fr;gap:48px;align-items:start;">
+
+      <!-- PHOTO: drop a file at assets/portrait.jpg; placeholder shows until then -->
+      <div>
+        <img src="../assets/portrait.jpg" alt="Hoda Rezvanjoo" style="width:100%;aspect-ratio:4/5;object-fit:cover;border:1px solid #E7E4DE;border-radius:4px;display:block;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div style="display:none;width:100%;aspect-ratio:4/5;background:#F1EEE8;border:1px solid #E7E4DE;border-radius:4px;align-items:center;justify-content:center;">
+          <span style="font-size:13px;color:#8A8F96;text-align:center;padding:0 16px;">Add your photo at<br>assets/portrait.jpg</span>
+        </div>
+      </div>
+
+      <!-- COPY -->
+      <div style="max-width:640px;">
+        <p style="font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:#E87722;font-weight:700;margin:0 0 16px 0;">About</p>
+        <h1 style="font-family:'Crimson Pro',Georgia,'Palatino Linotype',serif;font-size:44px;line-height:1.06;letter-spacing:-0.01em;color:#1B3A5C;font-weight:600;margin:0 0 24px 0;">Hoda Rezvanjoo</h1>
+        <p style="font-size:18px;line-height:1.7;color:#1A1D21;margin:0 0 18px 0;">I work on how organisations make decisions and how data can support clearer thinking. My focus is understanding the problem, modelling the decision space, and building analytical systems that turn uncertainty into structured insight.</p>
+        <p style="font-size:18px;line-height:1.7;color:#1A1D21;margin:0 0 18px 0;">My background brings together industrial engineering, business intelligence, and strategy. My doctoral research studies how Business Intelligence is used at different managerial tiers and how it affects decision quality in UK SMEs.</p>
+        <p style="font-size:18px;line-height:1.7;color:#1A1D21;margin:0 0 36px 0;">I am also Co-Founder and Chief Data and Strategy Officer at Heagital, where I build market models, insight frameworks, and decision tools for product strategy and investor planning.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;">
+          <a href="../cv.pdf" style="display:inline-block;background:#E87722;color:#ffffff;font-size:16px;font-weight:600;text-decoration:none;padding:13px 26px;border-radius:4px;border:2px solid #E87722;">Download CV</a>
+          <a href="https://www.linkedin.com/in/hoda-rezvanjoo" style="display:inline-block;color:#1B3A5C;font-size:16px;font-weight:600;text-decoration:none;padding:13px 8px;border-bottom:2px solid #E87722;">LinkedIn &rarr;</a>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <div class="inner">
+      <span class="fname">Hoda Rezvanjoo</span>
+      <nav class="fnav"><a href="../work/">Work</a><a href="../research/">Research</a><a href="../writing/">Writing</a><a href="../about/">About</a><a href="../contact/">Contact</a></nav>
+      <span style="font-size:13px;">&copy; 2026 Hoda Rezvanjoo</span>
+    </div>
+  </footer>
+
+</body>
+</html>
